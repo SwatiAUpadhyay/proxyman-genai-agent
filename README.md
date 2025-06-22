@@ -22,3 +22,8 @@ It does **not** require any paid OpenAI API key or access. Prompt parsing is don
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+
+example screenshot
+
+<img width="1196" alt="Screenshot 2025-06-22 at 3 04 18 PM" src="https://github.com/user-attachments/assets/c1675c60-0df2-4adb-8790-65c72f39db06" />
+
