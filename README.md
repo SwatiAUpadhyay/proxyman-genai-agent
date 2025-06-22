@@ -1,16 +1,24 @@
-# proxyman-cli-genai-agent
+# Proxyman GenAI CLI Log Agent (Free Version)
 
-Fetch Chrome/Android/iOS emulator logs using Proxyman CLI + OpenAI GPT.
+## Overview
 
-## 📦 Requirements
+This tool uses the Proxyman CLI to record network traffic, then filters logs by user prompt keyword.
 
-- macOS
-- Proxyman CLI: https://docs.proxyman.io/automation/cli
+It does **not** require any paid OpenAI API key or access. Prompt parsing is done with simple local keyword matching.
+
+## Requirements
+
+- macOS with [Proxyman App installed](https://proxyman.io)
+- `proxyman-cli` available in your PATH (located inside the Proxyman app bundle)
 - Python 3.9+
-- OpenAI API Key
+- `python-dotenv` package
 
-## 🚀 Usage
+## Setup
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+1. Clone the repo
+
+2. Create & activate virtual environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
